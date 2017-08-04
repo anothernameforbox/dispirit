@@ -124,27 +124,29 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
+  background-color: #1f1d2f;
+
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
   background: url(../img/static.gif) no-repeat bottom center scroll;
-  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .intro-body {
+
+.intro .intro-front {
   display: table-cell;
   vertical-align: middle;
 }
-.intro .intro-body .brand-heading {
+
+.intro .intro-front .brand-heading {
   font-size: 40px;
-  opacity: 0.6;
 }
-.intro .intro-body .mouthTv {
-  opacity: .3;
-}
-/*.intro .intro-body .intro-text {
-  font-size: 18px;
-}*/
+
 @media (min-width: 768px) {
   .intro {
     height: 100%;
@@ -167,7 +169,6 @@ a:focus {
   font-size: 40px;
   color: white;
   background: transparent;
-  opacity: 0.3;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
