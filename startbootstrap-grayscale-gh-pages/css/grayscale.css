@@ -7,8 +7,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: #12222F;
+  color: #FF3333;
+  background-color: #3c3c3c;
 }
 html {
   width: 100%;
@@ -25,11 +25,14 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  opacity: 0.6;
+
 }
 p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
+  opacity: 0.6
 }
 @media (min-width: 768px) {
   p {
@@ -39,7 +42,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #fff;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,10 +50,12 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #D4D7FE;
 }
 .light {
-  font-weight: 400;
+  position: relative;
+  bottom: 1.85em;
+  opacity: 0.8;
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -114,7 +119,7 @@ a:focus {
   .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: transparent;
   }
 }
 .intro {
@@ -124,7 +129,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background-color: #1f1d2f;
+  background-color: black;
 
 }
 
@@ -145,6 +150,19 @@ a:focus {
 
 .intro .intro-front .brand-heading {
   font-size: 40px;
+}
+
+@media (min-width: 320px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  /*.intro .intro-body .intro-text {
+    font-size: 26px;
+  }*/
 }
 
 @media (min-width: 768px) {
@@ -168,6 +186,7 @@ a:focus {
   border-radius: 100% !important;
   font-size: 40px;
   color: white;
+  opacity: 0.6;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -176,8 +195,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(212, 215, 254, 0.1);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
@@ -264,16 +283,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #336699;
+  color: #336699;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #336699;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #336699;
 }
 ul.banner-social-buttons {
   margin-top: 0;

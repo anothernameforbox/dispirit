@@ -1,4 +1,4 @@
 // Hide DISPIRIT text then fade in
-$(".intro-front").hide().delay(6000).fadeIn("slow");
+$(".intro-front").hide().delay(9000).fadeIn(3000);
 // BG delay then fade out
-$(".intro-body").delay(5000).fadeOut("slow");
+$(".intro-body").delay(5000).fadeOut(3000);
