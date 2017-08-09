@@ -148,8 +148,8 @@ a:focus {
   vertical-align: middle;
 }
 
-.intro .intro-front .brand-heading {
-  font-size: 40px;
+.intro .intro-front .img-responsive {
+  opacity: 0.8;
 }
 
 @media (min-width: 320px) {
@@ -158,7 +158,9 @@ a:focus {
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   /*.intro .intro-body .intro-text {
     font-size: 26px;
