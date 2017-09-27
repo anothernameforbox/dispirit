@@ -4,7 +4,7 @@ SLIDESHOW FOR MERCH
 $(function(){
       $("#slides").slidesjs({
         width: 940,
-        height: 528
+        height: 800
       });
     });
 sjs = $('#slides').data('plugin_slidesjs');
