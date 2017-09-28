@@ -9,8 +9,6 @@ body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #FF3333;
   background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 html {
@@ -240,6 +238,7 @@ a:focus {
     transform: scale(1);
   }
 }
+
 .content-section {
   padding-top: 100px;
 }
@@ -299,12 +298,12 @@ SLIDESHOW FOR MERCH
 @media (min-width: 767px) {
 
   .content-section {
-    padding-top: 25px;
-    margin-bottom: 75px;
+    padding-top: 125px;
   }
   .download-section {
     padding: 100px 0;
   }
+
 }
 .btn {
   text-transform: uppercase;
@@ -349,7 +348,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-  margin-top: 175px;
+  margin-top: 350px;
   padding: 40px 0;
 }
 footer p {
