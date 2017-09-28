@@ -348,9 +348,15 @@ ul.banner-social-buttons {
 }
 
 footer {
-  margin-top: 350px;
   padding: 40px 0;
 }
+
+@media (min-width: 767px) {
+  footer {
+    margin-top: 350px;
+  }
+}
+
 footer p {
   margin: 0;
 }
